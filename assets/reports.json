@@ -194,10 +194,17 @@
                 } ,
                 "tags": [
                     {
+                        "id": "CT",
+                        "radlex": "RID",   
                         "date": "some date",
                         "modality": "CT/MR",
                         "protocol": "full body + giraffe",
-                        "type": "comparison"
+                        "name": {
+                            "da-dk": "CT",
+                            "en-us": "CT",
+                            "de-de": "CT"
+                        },
+                        "text": ""
                     }
                 ]
             },
