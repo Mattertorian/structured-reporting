@@ -9,6 +9,9 @@
       sm8
       md6
     >
+    <div>
+        <speech-engine></speech-engine>
+    </div>
     <div v-for="type in types" :key="type">
     
       <text-area :type="type">
@@ -30,11 +33,13 @@
 <script>
 import TextAreaEditable from '~/components/TextAreaEditable.vue'
 import TextArea from '~/components/TextArea.vue'
+import SpeechEngine from '~/components/SpeechEngine.vue'
 
 export default {
   components: {
     TextArea,
-    TextAreaEditable
+    TextAreaEditable,
+    SpeechEngine
   },
   data() {
     return {
