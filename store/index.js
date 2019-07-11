@@ -2,6 +2,7 @@ import createEasyAccess from 'vuex-easy-access'
 import reports from '~/assets/reports.json'
 import { defaultMutations } from 'vuex-easy-access'
 
+
 const easyAccess = createEasyAccess()
 // and include as plugin in your vuex store:
 export const plugins = [easyAccess]
@@ -10,7 +11,8 @@ export const state = () => ({
     activeReport: false,
     reports: reports,
     reportSelected: false,
-    activeTag: null
+    activeTag: null,
+    language: 'da-DK'
 })
 export const getters = {
     getActiveReport: (state) => {
@@ -23,6 +25,23 @@ export const getters = {
         console.log('getActiveReport', active)
         return active
     },
+    getAvailableTags: (state, getters) => {
+        if (state.activeReport) {
+            const propertyList = Object.keys( getters.getActiveReport.content )
+            const tagList = []
+            propertyList.forEach(element => {
+                getters.getActiveReport.content[element].tags.forEach(tag => {
+                    tagList.push({
+                        id: tag.id,
+                        name: tag.name[state.language],
+                        tag: tag
+                    }) 
+                })
+            })
+            console.log('tagList', tagList)
+            return tagList
+        }
+    }
     // getActiveTag: (state) => {
     //     const reportIndex = state.reports.findIndex(report => report.id = state.activeReport)
     //     console.log('reportIndex', reportIndex)

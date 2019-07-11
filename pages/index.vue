@@ -18,14 +18,7 @@
         
       </text-area>
     </div>  
-      <pre>{{$store.get('activeTag')}}</pre>
-      <text-area-editable        
-          :tag="$store.get('activeTag')"
-          :type="$store.get('activeTag').type"
-          v-if="$store.get('activeTag')"
-      >
-
-      </text-area-editable>
+      
     </v-flex>
   </v-layout>
 </template>
