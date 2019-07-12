@@ -19,14 +19,25 @@
         <nuxt />
       </v-container>
     </v-content>
+    <div class="bottomnav">
+    <v-toolbar bottom>
+      <speech-engine></speech-engine>
+    </v-toolbar>
+    </div>
   </v-app>
 </template>
 
 <script>
+import SpeechEngine from '~/components/SpeechEngine.vue'
+
+
 export default {
   data() {
     return {
     }
+  },
+  components:{
+    SpeechEngine
   },
   methods: {
     setActiveReport(value) {
@@ -35,3 +46,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.bottomnav {
+  position:fixed;
+  bottom:0px;
+}
+</style>

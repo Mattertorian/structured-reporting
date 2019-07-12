@@ -10,15 +10,13 @@
       md6
     >
     <div>
-        <speech-engine></speech-engine>
+    <!-- <speech-engine></speech-engine> -->
     </div>
     <div v-for="type in types" :key="type">
-    
       <text-area :type="type">
         
       </text-area>
-    </div>  
-      
+    </div>
     </v-flex>
   </v-layout>
 </template>
