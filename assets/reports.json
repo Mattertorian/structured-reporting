@@ -2,7 +2,7 @@
     {
         "reportName": "CT Pulmonary Embolism",
         "name": {
-            "da-dk": "Lungeemboli",
+            "da-DK": "Lungeemboli",
             "en-us": "Pulmonary Embolism",
             "de-de": "Lungenembolie"
         },
@@ -11,7 +11,7 @@
         "content": {
             "indication": {
                 "name": {
-                    "da-dk": "indikation",
+                    "da-DK": "indikation",
                     "en-us": "indication",
                     "de-de": "indikation"
                 },
@@ -20,7 +20,7 @@
                         "id": "indication",
                         "radlex": "RID13166",                                
                         "name": {
-                            "da-dk": "indikation",
+                            "da-DK": "indikation",
                             "en-us": "indication",
                             "de-de": "indikation"
                         },
@@ -31,7 +31,7 @@
             },
             "technique": {
                 "name": {
-                    "da-dk": "teknik",
+                    "da-DK": "teknik",
                     "en-us": "technique",
                     "de-de": "technik"
                 },
@@ -40,7 +40,7 @@
                         "id": "technique",
                         "radlex": "RID28482",                                
                         "name": {
-                            "da-dk": "teknik",
+                            "da-DK": "teknik",
                             "en-us": "technique",
                             "de-de": "technik"
                         },
@@ -51,7 +51,7 @@
             },
             "comparison":{
                 "name": {
-                    "da-dk": "sammenligning",
+                    "da-DK": "sammenligning",
                     "en-us": "comparison",
                     "de-de": "vergleich"
                 } ,
@@ -63,17 +63,18 @@
                         "modality": "CT/MR",
                         "protocol": "full body + giraffe",
                         "name": {
-                            "da-dk": "CT",
+                            "da-DK": "CT",
                             "en-us": "CT",
                             "de-de": "CT"
                         },
-                        "text": ""
+                        "text": "",
+                        "type": "comparison"
                     }
                 ]
             },
             "findings": {
                 "name": {
-                    "da-dk": "fund",
+                    "da-DK": "fund",
                     "en-us": "findings",
                     "de-de": "befund"
                 },
@@ -82,7 +83,7 @@
                                 "id": "pulmonaryEmbolism",
                                 "radlex": "RID4834",                                
                                 "name": {
-                                    "da-dk": "Lungeemboli",
+                                    "da-DK": "Lungeemboli",
                                     "en-us": "Pulmonary Embolism",
                                     "de-de": "Lungenembolie"
                                 },
@@ -93,7 +94,7 @@
                                 "id": "rightHeartStrain",
                                 "radlex": "RID34796",                                
                                 "name": {
-                                    "da-dk": "Belastning af højre hjertekammer",
+                                    "da-DK": "Belastning af højre hjertekammer",
                                     "en-us": "Right Heart Strain/Failure",
                                     "de-de": "Rechtsherzinsuffizienz"
                                 },
@@ -104,7 +105,7 @@
                                 "id": "lungParenchyma",
                                 "radlex": "RID35739",                                
                                 "name": {
-                                    "da-dk": "Lungeparenkym",
+                                    "da-DK": "Lungeparenkymet",
                                     "en-us": "Lung Parenchyma",
                                     "de-de": "Lungeparenchym"
                                 },
@@ -115,7 +116,7 @@
                 },
             "impression": {
                 "name": {
-                    "da-dk": "konklusion",
+                    "da-DK": "konklusion",
                     "en-us": "impression",
                     "de-de": "konklusion"
                 },
@@ -125,7 +126,7 @@
                         "id": "impression",
                         "radlex": "RID13170",                                
                         "name": {
-                            "da-dk": "konklusion",
+                            "da-DK": "konklusion",
                             "en-us": "impression",
                             "de-de": "konklusion"
                         },
@@ -139,7 +140,7 @@
     {
         "reportName": "CT Acute Abdomen",
         "name": {
-            "da-dk": "Akut abdomen",
+            "da-DK": "Akut abdomen",
             "en-us": "Acute Abdomen",
             "de-de": "Abdomen"
         },
@@ -148,7 +149,7 @@
         "content": {
             "indication": {
                 "name": {
-                    "da-dk": "indikation",
+                    "da-DK": "indikation",
                     "en-us": "indication",
                     "de-de": "indikation"
                 },
@@ -157,7 +158,7 @@
                         "id": "indication",
                         "radlex": "RID13166",                                
                         "name": {
-                            "da-dk": "indikation",
+                            "da-DK": "indikation",
                             "en-us": "indication",
                             "de-de": "indikation"
                         },
@@ -168,7 +169,7 @@
             },
             "technique": {
                 "name": {
-                    "da-dk": "teknik",
+                    "da-DK": "teknik",
                     "en-us": "technique",
                     "de-de": "technik"
                 },
@@ -177,7 +178,7 @@
                         "id": "technique",
                         "radlex": "RID28482",                                
                         "name": {
-                            "da-dk": "teknik",
+                            "da-DK": "teknik",
                             "en-us": "technique",
                             "de-de": "technik"
                         },
@@ -188,7 +189,7 @@
             },
             "comparison":{
                 "name": {
-                    "da-dk": "sammenligning",
+                    "da-DK": "sammenligning",
                     "en-us": "comparison",
                     "de-de": "vergleich"
                 } ,
@@ -200,17 +201,18 @@
                         "modality": "CT/MR",
                         "protocol": "full body + giraffe",
                         "name": {
-                            "da-dk": "CT",
+                            "da-DK": "CT",
                             "en-us": "CT",
                             "de-de": "CT"
                         },
-                        "text": ""
+                        "text": "",
+                        "type":"comparison"
                     }
                 ]
             },
             "findings": {
                 "name": {
-                    "da-dk": "fund",
+                    "da-DK": "fund",
                     "en-us": "findings",
                     "de-de": "befund"
                 },
@@ -219,7 +221,7 @@
                                 "id": "pneumoperitoneum",
                                 "radlex": "RID4803",                                
                                 "name": {
-                                    "da-dk": "Fri luft",
+                                    "da-DK": "Fri luft",
                                     "en-us": "Pneumoperitoneum",
                                     "de-de": "Pneumoperitoneum"
                                 },
@@ -230,7 +232,7 @@
                                 "id": "bowelObstruction",
                                 "radlex": "RID",                                
                                 "name": {
-                                    "da-dk": "Ileus",
+                                    "da-DK": "Ileus",
                                     "en-us": "Bowel Obstruction",
                                     "de-de": "Darmobstruktion"
                                 },
@@ -241,7 +243,7 @@
                                 "id": "liver",
                                 "radlex": "RID58",                                
                                 "name": {
-                                    "da-dk": "Lever",
+                                    "da-DK": "Lever",
                                     "en-us": "Liver",
                                     "de-de": "Leber"
                                 },
@@ -252,7 +254,7 @@
                                 "id": "pancreas",
                                 "radlex": "RID170",                                
                                 "name": {
-                                    "da-dk": "Pankreas",
+                                    "da-DK": "Pankreas",
                                     "en-us": "Pancreas",
                                     "de-de": "Pankreas"
                                 },
@@ -263,7 +265,7 @@
                 },
             "impression": {
                 "name": {
-                    "da-dk": "konklusion",
+                    "da-DK": "konklusion",
                     "en-us": "impression",
                     "de-de": "konklusion"
                 },
@@ -273,7 +275,7 @@
                         "id": "impression",
                         "radlex": "RID13170",                                
                         "name": {
-                            "da-dk": "konklusion",
+                            "da-DK": "konklusion",
                             "en-us": "impression",
                             "de-de": "konklusion"
                         },

@@ -7,7 +7,7 @@
             xs12
         >
             <v-card v-if="$store.get('activeReport')">
-                <v-card-title class="title">{{$store.getters.getActiveReport.content[type].name['da-dk']}}</v-card-title>
+                <v-card-title class="title">{{$store.getters.getActiveReport.content[type].name['da-DK']}}</v-card-title>
                 <div
                     v-for="finding in $store.getters.getActiveReport.content[type].tags"
                     :key="finding.id"
@@ -22,7 +22,8 @@
                         <p>
                             
                             <div v-if="finding.id === $store.get('activeTag.id')">
-                                <span class="body-2" style="bold">{{finding.name['da-dk']}}:</span>
+                                
+                                <span class="body-2" style="bold">{{finding.name['da-DK']}}:</span>
                                 <text-area-editable
                                     
                                     :tag="finding"
@@ -35,7 +36,7 @@
                             <div
                                 v-else
                                 >
-                                <span class="body-2" style="bold">{{finding.name['da-dk']}}:</span>
+                                <span class="body-2" style="bold">{{finding.name['da-DK']}}:</span>
                                 {{finding.text}}
                             </div>
                         </p>

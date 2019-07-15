@@ -10,22 +10,13 @@
       md6
     >
     <div>
-        <speech-engine></speech-engine>
+    <!-- <speech-engine></speech-engine> -->
     </div>
     <div v-for="type in types" :key="type">
-    
       <text-area :type="type">
         
       </text-area>
-    </div>  
-      <pre>{{$store.get('activeTag')}}</pre>
-      <text-area-editable        
-          :tag="$store.get('activeTag')"
-          :type="$store.get('activeTag').type"
-          v-if="$store.get('activeTag')"
-      >
-
-      </text-area-editable>
+    </div>
     </v-flex>
   </v-layout>
 </template>
