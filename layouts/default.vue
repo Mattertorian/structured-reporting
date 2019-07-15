@@ -1,5 +1,5 @@
 <template>
-  <v-app >
+  <v-app @keyup="handleKeyup(event.target.value)">
     <v-toolbar>
       <v-toolbar-side-icon></v-toolbar-side-icon>
       <v-toolbar-title>Structured Reporting</v-toolbar-title>
@@ -23,6 +23,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -31,7 +32,18 @@ export default {
   methods: {
     setActiveReport(value) {
       this.$store.commit('setActiveReport', value)
+    },
+    handleKeyup(e) {
+      console.log(e)
     }
+  },
+  mounted() {
+    // window.addEventListener('keyup', function(event) {
+    //     // If down arrow was pressed...
+    //     if (event.keyCode == 107) { 
+    //       console.log('NumpadAdd pressed!');
+    //     }
+    // });
   }
 }
 </script>
