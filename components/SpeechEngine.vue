@@ -144,6 +144,23 @@ export default {
         this.unpauseRecording();
         console.log("SpeechEngine: fortsætter optagelse");
         this.speakText("fortsæt");
+      } else if (RegExp(/\b(\w*næste\w*)\b/, "i").test(result)) {
+        const availableTagArray = Array.from(
+          this.$store.getters.getAvailableTags
+        );
+        console.log("availableTagArray", availableTagArray);
+        console.log("activeTag", this.activeTag);
+        const index = availableTagArray.findIndex(tag => {
+          return tag.id === this.activeTag.id;
+        });
+        if (index + 1 < availableTagArray.length) {
+          console.log("index", index);
+          this.$store.commit("setActiveTag", availableTagArray[index + 1]);
+          this.speakText(availableTagArray[index + 1].tag.name["da-DK"]);
+          console.log("næste", availableTagArray[index + 1].tag.name["da-DK"]);
+        } else {
+          console.log("Last available tag reached");
+        }
       } else if (!this.pause) {
         //Hvis optagelsen ikke er sat på pause sendes den til analyse
         if (RegExp(/\b(\w*pause\w*)\b/, "i").test(result)) {

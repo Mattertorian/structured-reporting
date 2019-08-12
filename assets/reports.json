@@ -46,6 +46,17 @@
             },
             "text": "",
             "type": "technique"
+          },
+          {
+            "id": "contrast",
+            "radlex": "RID28482",
+            "name": {
+              "da-DK": "kontrast",
+              "en-us": "contrast",
+              "de-de": "technik"
+            },
+            "text": "",
+            "type": "technique"
           }
         ]
       },
@@ -80,6 +91,17 @@
         },
         "tags": [
           {
+            "id": "diagnosticQuality",
+            "radlex": "",
+            "name": {
+              "da-DK": "Diagnostisk Kvalitet",
+              "en-us": "Diagnostic Quality",
+              "de-de": "Diagnostic"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
             "id": "pulmonaryEmbolism",
             "radlex": "RID4834",
             "name": {
@@ -87,7 +109,7 @@
               "en-us": "Pulmonary Embolism",
               "de-de": "Lungenembolie"
             },
-            "text": "Ingen lungeemboli fundet",
+            "text": "",
             "type": "findings"
           },
           {
@@ -98,7 +120,18 @@
               "en-us": "Right Heart Strain/Failure",
               "de-de": "Rechtsherzinsuffizienz"
             },
-            "text": "Ingen højresidig belastning",
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "lungArteries",
+            "radlex": "RID28586",
+            "name": {
+              "da-DK": "Lungearterier",
+              "en-us": "Lung Arteries",
+              "de-de": "Lungenarterien"
+            },
+            "text": "",
             "type": "findings"
           },
           {
@@ -109,7 +142,62 @@
               "en-us": "Lung Parenchyma",
               "de-de": "Lungeparenchym"
             },
-            "text": "Ekstrem grimt parenkym",
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "pleuralEffusion",
+            "radlex": "",
+            "name": {
+              "da-DK": "Pleural Effusion",
+              "en-us": "Pleural Effusion",
+              "de-de": "Pleural Effusion"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "adenopathy",
+            "radlex": "",
+            "name": {
+              "da-DK": "Lymfeknuder",
+              "en-us": "Adenopathy",
+              "de-de": "Adenopati"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "heartAndGreatVessels",
+            "radlex": "",
+            "name": {
+              "da-DK": "Hjerte og centrale kar",
+              "en-us": "Heart and Great Vessels",
+              "de-de": "Heart and Great Vessels"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "upperAbdomen",
+            "radlex": "",
+            "name": {
+              "da-DK": "Øvre Abdomen",
+              "en-us": "Upper Abdomen",
+              "de-de": "Upper Abdomen"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "bones",
+            "radlex": "",
+            "name": {
+              "da-DK": "Knogler",
+              "en-us": "Bones",
+              "de-de": "Skelet"
+            },
+            "text": "",
             "type": "findings"
           }
         ]

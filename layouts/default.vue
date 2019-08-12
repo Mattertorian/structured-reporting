@@ -1,7 +1,7 @@
 <template>
   <v-app @keyup="handleKeyup(event.target.value)">
     <v-toolbar>
-      <v-icon large color="black">assignment</v-icon>
+      <v-icon large color="black">g_translate</v-icon>
       <v-toolbar-title>Structured Reporting</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
