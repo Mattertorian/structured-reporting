@@ -1,7 +1,7 @@
 <template>
   <v-app @keyup="handleKeyup(event.target.value)">
     <v-toolbar>
-      <v-toolbar-side-icon></v-toolbar-side-icon>
+      <v-icon large color="black">assignment</v-icon>
       <v-toolbar-title>Structured Reporting</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
@@ -9,8 +9,8 @@
           :items="$store.get('reports')"
           :item-text="'reportName'"
           :item-value="'id'"
-          label="Tilgængelige rapporter"
           @change="setActiveReport"
+          text
         ></v-select>
       </v-toolbar-items>
     </v-toolbar>
@@ -20,47 +20,45 @@
       </v-container>
     </v-content>
     <div class="bottomnav">
-    <v-toolbar bottom>
-      <speech-engine></speech-engine>
-    </v-toolbar>
+      <v-toolbar bottom>
+        <speech-engine></speech-engine>
+      </v-toolbar>
     </div>
   </v-app>
 </template>
 
 <script>
-import SpeechEngine from '~/components/SpeechEngine.vue'
-
+import SpeechEngine from "~/components/SpeechEngine.vue";
 
 export default {
   data() {
-    return {
-    }
+    return {};
   },
-  components:{
+  components: {
     SpeechEngine
   },
   methods: {
     setActiveReport(value) {
-      this.$store.commit('setActiveReport', value)
+      this.$store.commit("setActiveReport", value);
     },
     handleKeyup(e) {
-      console.log(e)
+      console.log(e);
     }
   },
   mounted() {
     // window.addEventListener('keyup', function(event) {
     //     // If down arrow was pressed...
-    //     if (event.keyCode == 107) { 
+    //     if (event.keyCode == 107) {
     //       console.log('NumpadAdd pressed!');
     //     }
     // });
   }
-}
+};
 </script>
 
 <style>
 .bottomnav {
-  position:fixed;
-  bottom:0px;
+  position: fixed;
+  bottom: 0px;
 }
 </style>

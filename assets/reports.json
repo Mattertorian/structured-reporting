@@ -1,289 +1,289 @@
 [
-    {
-        "reportName": "CT Pulmonary Embolism",
-        "name": {
-            "da-DK": "Lungeemboli",
-            "en-us": "Pulmonary Embolism",
-            "de-de": "Lungenembolie"
-        },
-        "id": "hgldshglfrky58943hg",
-        "modality": "CT",
-        "content": {
-            "indication": {
-                "name": {
-                    "da-DK": "indikation",
-                    "en-us": "indication",
-                    "de-de": "indikation"
-                },
-                "tags": [
-                    {
-                        "id": "indication",
-                        "radlex": "RID13166",                                
-                        "name": {
-                            "da-DK": "indikation",
-                            "en-us": "indication",
-                            "de-de": "indikation"
-                        },
-                        "text": "",
-                        "type": "indication"
-                    }
-                ]
-            },
-            "technique": {
-                "name": {
-                    "da-DK": "teknik",
-                    "en-us": "technique",
-                    "de-de": "technik"
-                },
-                "tags": [
-                    {
-                        "id": "technique",
-                        "radlex": "RID28482",                                
-                        "name": {
-                            "da-DK": "teknik",
-                            "en-us": "technique",
-                            "de-de": "technik"
-                        },
-                        "text": "",
-                        "type": "technique"
-                    }
-                ]
-            },
-            "comparison":{
-                "name": {
-                    "da-DK": "sammenligning",
-                    "en-us": "comparison",
-                    "de-de": "vergleich"
-                } ,
-                "tags": [
-                    {   
-                        "id": "CT",
-                        "radlex": "RID",   
-                        "date": "some date",
-                        "modality": "CT/MR",
-                        "protocol": "full body + giraffe",
-                        "name": {
-                            "da-DK": "CT",
-                            "en-us": "CT",
-                            "de-de": "CT"
-                        },
-                        "text": "",
-                        "type": "comparison"
-                    }
-                ]
-            },
-            "findings": {
-                "name": {
-                    "da-DK": "fund",
-                    "en-us": "findings",
-                    "de-de": "befund"
-                },
-                "tags": [
-                            {
-                                "id": "pulmonaryEmbolism",
-                                "radlex": "RID4834",                                
-                                "name": {
-                                    "da-DK": "Lungeemboli",
-                                    "en-us": "Pulmonary Embolism",
-                                    "de-de": "Lungenembolie"
-                                },
-                                "text": "Ingen lungeemboli fundet",
-                                "type": "findings"
-                            },
-                            {
-                                "id": "rightHeartStrain",
-                                "radlex": "RID34796",                                
-                                "name": {
-                                    "da-DK": "Belastning af højre hjertekammer",
-                                    "en-us": "Right Heart Strain/Failure",
-                                    "de-de": "Rechtsherzinsuffizienz"
-                                },
-                                "text": "Ingen højresidig belastning",
-                                "type": "findings"
-                            },
-                            {
-                                "id": "lungParenchyma",
-                                "radlex": "RID35739",                                
-                                "name": {
-                                    "da-DK": "Lungeparenkymet",
-                                    "en-us": "Lung Parenchyma",
-                                    "de-de": "Lungeparenchym"
-                                },
-                                "text": "Ekstrem grimt parenkym",
-                                "type": "findings"
-                            }
-                        ]
-                },
-            "impression": {
-                "name": {
-                    "da-DK": "konklusion",
-                    "en-us": "impression",
-                    "de-de": "konklusion"
-                },
-                "text": "much conclusion",
-                "tags": [
-                    {
-                        "id": "impression",
-                        "radlex": "RID13170",                                
-                        "name": {
-                            "da-DK": "konklusion",
-                            "en-us": "impression",
-                            "de-de": "konklusion"
-                        },
-                        "text": "",
-                        "type": "impression"
-                    }
-                ]
-            }        
-        }
+  {
+    "reportName": "CT Pulmonary Embolism",
+    "name": {
+      "da-DK": "Lungeemboli",
+      "en-us": "Pulmonary Embolism",
+      "de-de": "Lungenembolie"
     },
-    {
-        "reportName": "CT Acute Abdomen",
+    "id": "hgldshglfrky58943hg",
+    "modality": "CT",
+    "content": {
+      "indication": {
         "name": {
-            "da-DK": "Akut abdomen",
-            "en-us": "Acute Abdomen",
-            "de-de": "Abdomen"
+          "da-DK": "indikation",
+          "en-us": "indication",
+          "de-de": "indikation"
         },
-        "id": "gfu845jghfiudsoyuip45",
-        "modality": "CT",
-        "content": {
-            "indication": {
-                "name": {
-                    "da-DK": "indikation",
-                    "en-us": "indication",
-                    "de-de": "indikation"
-                },
-                "tags": [
-                    {
-                        "id": "indication",
-                        "radlex": "RID13166",                                
-                        "name": {
-                            "da-DK": "indikation",
-                            "en-us": "indication",
-                            "de-de": "indikation"
-                        },
-                        "text": "",
-                        "type": "indication"
-                    }
-                ]
+        "tags": [
+          {
+            "id": "indication",
+            "radlex": "RID13166",
+            "name": {
+              "da-DK": "indikation",
+              "en-us": "indication",
+              "de-de": "indikation"
             },
-            "technique": {
-                "name": {
-                    "da-DK": "teknik",
-                    "en-us": "technique",
-                    "de-de": "technik"
-                },
-                "tags": [
-                    {
-                        "id": "technique",
-                        "radlex": "RID28482",                                
-                        "name": {
-                            "da-DK": "teknik",
-                            "en-us": "technique",
-                            "de-de": "technik"
-                        },
-                        "text": "",
-                        "type": "technique"
-                    }
-                ]
+            "text": "",
+            "type": "indication"
+          }
+        ]
+      },
+      "technique": {
+        "name": {
+          "da-DK": "teknik",
+          "en-us": "technique",
+          "de-de": "technik"
+        },
+        "tags": [
+          {
+            "id": "technique",
+            "radlex": "RID28482",
+            "name": {
+              "da-DK": "teknik",
+              "en-us": "technique",
+              "de-de": "technik"
             },
-            "comparison":{
-                "name": {
-                    "da-DK": "sammenligning",
-                    "en-us": "comparison",
-                    "de-de": "vergleich"
-                } ,
-                "tags": [
-                    {
-                        "id": "CT",
-                        "radlex": "RID",   
-                        "date": "some date",
-                        "modality": "CT/MR",
-                        "protocol": "full body + giraffe",
-                        "name": {
-                            "da-DK": "CT",
-                            "en-us": "CT",
-                            "de-de": "CT"
-                        },
-                        "text": "",
-                        "type":"comparison"
-                    }
-                ]
+            "text": "",
+            "type": "technique"
+          }
+        ]
+      },
+      "comparison": {
+        "name": {
+          "da-DK": "sammenligning",
+          "en-us": "comparison",
+          "de-de": "vergleich"
+        },
+        "tags": [
+          {
+            "id": "comparison",
+            "radlex": "RID",
+            "date": "some date",
+            "modality": "CT/MR",
+            "protocol": "full body + giraffe",
+            "name": {
+              "da-DK": "sammenligning",
+              "en-us": "comparison",
+              "de-de": "vergleich"
             },
-            "findings": {
-                "name": {
-                    "da-DK": "fund",
-                    "en-us": "findings",
-                    "de-de": "befund"
-                },
-                "tags": [
-                            {
-                                "id": "pneumoperitoneum",
-                                "radlex": "RID4803",                                
-                                "name": {
-                                    "da-DK": "Fri luft",
-                                    "en-us": "Pneumoperitoneum",
-                                    "de-de": "Pneumoperitoneum"
-                                },
-                                "text": "",
-                                "type": "findings"
-                            },
-                            {
-                                "id": "bowelObstruction",
-                                "radlex": "RID",                                
-                                "name": {
-                                    "da-DK": "Ileus",
-                                    "en-us": "Bowel Obstruction",
-                                    "de-de": "Darmobstruktion"
-                                },
-                                "text": "",
-                                "type": "findings"
-                            },
-                            {
-                                "id": "liver",
-                                "radlex": "RID58",                                
-                                "name": {
-                                    "da-DK": "Lever",
-                                    "en-us": "Liver",
-                                    "de-de": "Leber"
-                                },
-                                "text": "",
-                                "type": "findings"
-                            },
-                            {
-                                "id": "pancreas",
-                                "radlex": "RID170",                                
-                                "name": {
-                                    "da-DK": "Pankreas",
-                                    "en-us": "Pancreas",
-                                    "de-de": "Pankreas"
-                                },
-                                "text": "",
-                                "type": "findings"
-                            }
-                        ]
-                },
-            "impression": {
-                "name": {
-                    "da-DK": "konklusion",
-                    "en-us": "impression",
-                    "de-de": "konklusion"
-                },
-                "text": "much conclusion",
-                "tags": [
-                    {
-                        "id": "impression",
-                        "radlex": "RID13170",                                
-                        "name": {
-                            "da-DK": "konklusion",
-                            "en-us": "impression",
-                            "de-de": "konklusion"
-                        },
-                        "text": "",
-                        "type": "impression"
-                    }
-                ]
-            }        
-        }
+            "text": "",
+            "type": "comparison"
+          }
+        ]
+      },
+      "findings": {
+        "name": {
+          "da-DK": "fund",
+          "en-us": "findings",
+          "de-de": "befund"
+        },
+        "tags": [
+          {
+            "id": "pulmonaryEmbolism",
+            "radlex": "RID4834",
+            "name": {
+              "da-DK": "Lungeemboli",
+              "en-us": "Pulmonary Embolism",
+              "de-de": "Lungenembolie"
+            },
+            "text": "Ingen lungeemboli fundet",
+            "type": "findings"
+          },
+          {
+            "id": "rightHeartStrain",
+            "radlex": "RID34796",
+            "name": {
+              "da-DK": "Belastning af højre hjertekammer",
+              "en-us": "Right Heart Strain/Failure",
+              "de-de": "Rechtsherzinsuffizienz"
+            },
+            "text": "Ingen højresidig belastning",
+            "type": "findings"
+          },
+          {
+            "id": "lungParenchyma",
+            "radlex": "RID35739",
+            "name": {
+              "da-DK": "Lungeparenkymet",
+              "en-us": "Lung Parenchyma",
+              "de-de": "Lungeparenchym"
+            },
+            "text": "Ekstrem grimt parenkym",
+            "type": "findings"
+          }
+        ]
+      },
+      "impression": {
+        "name": {
+          "da-DK": "konklusion",
+          "en-us": "impression",
+          "de-de": "konklusion"
+        },
+        "text": "much conclusion",
+        "tags": [
+          {
+            "id": "impression",
+            "radlex": "RID13170",
+            "name": {
+              "da-DK": "konklusion",
+              "en-us": "impression",
+              "de-de": "konklusion"
+            },
+            "text": "",
+            "type": "impression"
+          }
+        ]
+      }
     }
+  },
+  {
+    "reportName": "CT Acute Abdomen",
+    "name": {
+      "da-DK": "Akut abdomen",
+      "en-us": "Acute Abdomen",
+      "de-de": "Abdomen"
+    },
+    "id": "gfu845jghfiudsoyuip45",
+    "modality": "CT",
+    "content": {
+      "indication": {
+        "name": {
+          "da-DK": "indikation",
+          "en-us": "indication",
+          "de-de": "indikation"
+        },
+        "tags": [
+          {
+            "id": "indication",
+            "radlex": "RID13166",
+            "name": {
+              "da-DK": "indikation",
+              "en-us": "indication",
+              "de-de": "indikation"
+            },
+            "text": "",
+            "type": "indication"
+          }
+        ]
+      },
+      "technique": {
+        "name": {
+          "da-DK": "teknik",
+          "en-us": "technique",
+          "de-de": "technik"
+        },
+        "tags": [
+          {
+            "id": "technique",
+            "radlex": "RID28482",
+            "name": {
+              "da-DK": "teknik",
+              "en-us": "technique",
+              "de-de": "technik"
+            },
+            "text": "",
+            "type": "technique"
+          }
+        ]
+      },
+      "comparison": {
+        "name": {
+          "da-DK": "sammenligning",
+          "en-us": "comparison",
+          "de-de": "vergleich"
+        },
+        "tags": [
+          {
+            "id": "CT",
+            "radlex": "RID",
+            "date": "some date",
+            "modality": "CT/MR",
+            "protocol": "full body + giraffe",
+            "name": {
+              "da-DK": "CT",
+              "en-us": "CT",
+              "de-de": "CT"
+            },
+            "text": "",
+            "type": "comparison"
+          }
+        ]
+      },
+      "findings": {
+        "name": {
+          "da-DK": "fund",
+          "en-us": "findings",
+          "de-de": "befund"
+        },
+        "tags": [
+          {
+            "id": "pneumoperitoneum",
+            "radlex": "RID4803",
+            "name": {
+              "da-DK": "Fri luft",
+              "en-us": "Pneumoperitoneum",
+              "de-de": "Pneumoperitoneum"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "bowelObstruction",
+            "radlex": "RID",
+            "name": {
+              "da-DK": "Ileus",
+              "en-us": "Bowel Obstruction",
+              "de-de": "Darmobstruktion"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "liver",
+            "radlex": "RID58",
+            "name": {
+              "da-DK": "Lever",
+              "en-us": "Liver",
+              "de-de": "Leber"
+            },
+            "text": "",
+            "type": "findings"
+          },
+          {
+            "id": "pancreas",
+            "radlex": "RID170",
+            "name": {
+              "da-DK": "Pankreas",
+              "en-us": "Pancreas",
+              "de-de": "Pankreas"
+            },
+            "text": "",
+            "type": "findings"
+          }
+        ]
+      },
+      "impression": {
+        "name": {
+          "da-DK": "konklusion",
+          "en-us": "impression",
+          "de-de": "konklusion"
+        },
+        "text": "much conclusion",
+        "tags": [
+          {
+            "id": "impression",
+            "radlex": "RID13170",
+            "name": {
+              "da-DK": "konklusion",
+              "en-us": "impression",
+              "de-de": "konklusion"
+            },
+            "text": "",
+            "type": "impression"
+          }
+        ]
+      }
+    }
+  }
 ]
